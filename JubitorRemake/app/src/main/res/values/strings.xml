@@ -1,0 +1,18 @@
+<resources>
+
+
+    <string name="app_name">Project jubitor</string>
+    <string name="daftar">Daftar</string>
+    <string name="masuk">Masuk</string>
+    <string name="jual_beli_motor_bekas">Jual Beli Motor Bekas</string>
+    <string name="buat_akun">Buat Akun</string>
+    <string name="ingat_saya">Ingat Saya</string>
+    <string name="namapengguna">Nama Pengguna</string>
+    <string name="email">Email</string>
+    <string name="katasandi">Kata Sandi</string>
+    <string name="alamat">Alamat</string>
+    <string name="lupakatasandi">Lupa kata Sandi</string>
+    <string name="notelp">No.Telefon</string>
+
+
+</resources>
