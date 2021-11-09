@@ -10,6 +10,24 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/home.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/masuk.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/menu.xml" value="0.16032608695652173" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_bottomnavigation.xml" value="0.22447916666666667" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_dashboard.xml" value="0.2056159420289855" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_favorit.xml" value="0.22447916666666667" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/daftar.xml" value="0.10989583333333333" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/detailproduct.xml" value="0.25" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/fragment_halamanutamafragment.xml" value="0.2056159420289855" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/fragment_home.xml" value="0.2056159420289855" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/fragment_menu.xml" value="0.2056159420289855" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/fragment_menufragment.xml" value="0.2056159420289855" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/halaman_utama.xml" value="0.2" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/home.xml" value="0.25" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/info_detail_produk.xml" value="0.22" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/masuk.xml" value="0.22" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/menu.xml" value="0.2" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/navbar.xml" value="0.22447916666666667" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/menu/menu_nav.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>
@@ -18,5 +36,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>

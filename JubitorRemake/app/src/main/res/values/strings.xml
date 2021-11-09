@@ -13,6 +13,8 @@
     <string name="alamat">Alamat</string>
     <string name="lupakatasandi">Lupa kata Sandi</string>
     <string name="notelp">No.Telefon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

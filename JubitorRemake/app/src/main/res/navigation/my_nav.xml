@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/halaman_utama">
+
+    <activity
+        android:id="@+id/menu"
+        android:name="com.example.jubitorremake.menu"
+        android:label="menu" />
+    <activity
+        android:id="@+id/halaman_utama"
+        android:name="com.example.jubitorremake.halaman_utama"
+        android:label="halaman_utama" />
+</navigation>
