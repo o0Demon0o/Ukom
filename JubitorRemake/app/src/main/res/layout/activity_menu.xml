@@ -19,10 +19,8 @@
             android:id="@+id/imageView"
             android:layout_width="155dp"
             android:layout_height="49dp"
-            android:layout_marginEnd="11dp"
             android:layout_marginBottom="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/guest_logo"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/logo_jubitor_cut" />

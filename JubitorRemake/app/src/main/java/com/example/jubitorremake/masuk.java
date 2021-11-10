@@ -14,8 +14,6 @@ public class masuk extends AppCompatActivity {
         setContentView(R.layout.activity_masuk);
 
         Button login = findViewById(R.id.masuk);
-        Button hehe = findViewById(R.id.sementara);
-        hehe.setOnClickListener(v -> openProduk());
         login.setOnClickListener(v -> openHome());
     }
 
@@ -23,12 +21,5 @@ public class masuk extends AppCompatActivity {
         Intent intent = new  Intent(masuk.this, halaman_utama.class);
         startActivity(intent);
     }
-
-    private void openProduk() {
-        Intent intent = new Intent(masuk.this, detailproduct.class);
-        startActivity(intent);
-    }
-
-
 
 }
