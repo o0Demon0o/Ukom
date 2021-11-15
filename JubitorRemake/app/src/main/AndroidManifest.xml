@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JubitorRemake">
         <activity
+            android:name=".BottnavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bottnav" />
+        <activity
             android:name=".tokosaya"
             android:exported="false" />
         <activity

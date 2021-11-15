@@ -32,7 +32,8 @@
                 android:id="@+id/namaProduk"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="NAMA PRODUK"
+                android:layout_marginStart="3dp"
+                android:text="Beat 2018 baru"
                 android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"
@@ -41,12 +42,14 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/gambarProduk"
-                app:layout_constraintVertical_bias="0.033" />
+                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/harga"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="5dp"
                 android:text="Harga : "
                 android:textColor="@color/black"
                 android:textSize="20dp"
@@ -62,40 +65,36 @@
                 android:id="@+id/hargaproduk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="20000"
+                android:layout_marginTop="5dp"
+                android:text="16.000.000"
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.194"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/namaProduk"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintStart_toEndOf="@+id/harga"
+                app:layout_constraintTop_toBottomOf="@+id/namaProduk" />
 
 
             <TextView
                 android:id="@+id/descProduk"
                 android:layout_width="match_parent"
-                android:gravity="center"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/gray"
+                android:gravity="center"
                 android:text="Detail Produk"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                android:background="@color/gray"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/hargaproduk"
-                app:layout_constraintVertical_bias="0.24" />
+                app:layout_constraintTop_toBottomOf="@+id/hargaproduk" />
 
             <TextView
                 android:id="@+id/deskripsiproduk"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="dijual butuh uang"
+                android:text="Beat 2018,barang masih perawan (Baru),belum pernah dipake.16.000.000 nego,bisa dp dulu 2jt yang berminat moggo"
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="bold"

@@ -93,8 +93,8 @@
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="625dp"
-        android:layout_marginTop="1dp"
+        android:layout_height="515dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Rekomendasi">
