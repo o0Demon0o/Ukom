@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#EBEBDE">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout2"
-        android:layout_width="411dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#c4c4c4"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,25 +29,23 @@
             android:id="@+id/guest_logo"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginStart="11dp"
             android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
             android:src="@drawable/guest_logo_2"
-            app:civ_border_width="1dp"
             app:civ_border_color="@color/black"
-            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:civ_border_width="1dp"
+            app:layout_constraintEnd_toStartOf="@+id/usename"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/usename"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="9dp"
             android:layout_marginTop="5dp"
-            android:layout_marginEnd="83dp"
+            android:layout_marginEnd="50dp"
             android:text="Nama Penggguna"
             android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/guest_logo"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -56,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="9dp"
             android:layout_marginTop="24dp"
-            android:layout_marginEnd="126dp"
+            android:layout_marginEnd="90dp"
             android:text="No.Telefon"
             android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
@@ -65,53 +63,14 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <TextView
-        android:id="@+id/favorit"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/HistoryRecycler"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:text="Favorit"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="610dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout2" />
 
-    <TextView
-        android:id="@+id/tokosaya"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:text="Toko Saya"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/favorit" />
-
-    <TextView
-        android:id="@+id/terakhirdilihat"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:text="Terakhir Dilihat"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tokosaya" />
-
-    <TextView
-        android:id="@+id/pengaturanakun"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:text="Pengaturan Akun"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/terakhirdilihat" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/JubitorRemake/app/src/main/res/layout/activity_detailproduct.xml" value="0.22447916666666667" />
+        <entry key="..\:/JubitorRemake/app/src/main/res/layout/activity_halaman_utama.xml" value="0.22447916666666667" />
+        <entry key="..\:/JubitorRemake/app/src/main/res/layout/activity_masuk.xml" value="0.22" />
+        <entry key="..\:/JubitorRemake/app/src/main/res/layout/activity_setting.xml" value="0.22447916666666667" />
+        <entry key="..\:/JubitorRemake/app/src/main/res/layout/activity_tokosaya.xml" value="0.22447916666666667" />
+        <entry key="..\:/JubitorRemake/app/src/main/res/layout/listitem_produkhome.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/JubitorRemake/app/src/main/res/drawable/corner_radius.xml" value="0.12604166666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/JubitorRemake/app/src/main/res/drawable/searchbar_corner_radius.xml" value="0.67" />
         <entry key="..\:/Users/User/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_main.xml" value="0.25" />
@@ -10,25 +16,32 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/home.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/masuk.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/menu.xml" value="0.16032608695652173" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/drawable/ic_setting.xml" value="0.1265625" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_bottnav.xml" value="0.22447916666666667" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_bottomnavigation.xml" value="0.22447916666666667" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_daftar.xml" value="0.22447916666666667" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_dashboard.xml" value="0.2056159420289855" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_detailproduct.xml" value="0.22447916666666667" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_favorit.xml" value="0.18" />
-        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_halaman_utama.xml" value="0.18" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_halaman_utama.xml" value="0.22" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_masuk.xml" value="0.22447916666666667" />
-        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_menu.xml" value="0.25" />
-        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_tokosaya.xml" value="0.22447916666666667" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_setting.xml" value="0.22447916666666667" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/activity_tokosaya.xml" value="0.22" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/daftar.xml" value="0.10989583333333333" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/detailproduct.xml" value="0.25" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/fragment_dashboard.xml" value="0.22447916666666667" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/fragment_halamanutamafragment.xml" value="0.2056159420289855" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/fragment_home.xml" value="0.2056159420289855" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/fragment_menu.xml" value="0.2056159420289855" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/fragment_menufragment.xml" value="0.2056159420289855" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/fragment_notifications.xml" value="0.22447916666666667" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/halaman_utama.xml" value="0.2" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/home.xml" value="0.25" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/info_detail_produk.xml" value="0.22" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/listitem_produkhome.xml" value="0.209375" />
+        <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/listitem_tokosaya.xml" value="0.209375" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/masuk.xml" value="0.22" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/menu.xml" value="0.2" />
         <entry key="..\:/Windows/AndroidStudioProjects/JubitorRemake/app/src/main/res/layout/navbar.xml" value="0.22447916666666667" />

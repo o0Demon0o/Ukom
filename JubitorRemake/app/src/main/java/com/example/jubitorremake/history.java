@@ -1,14 +1,17 @@
 package com.example.jubitorremake;
 
-import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class menu extends AppCompatActivity {
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.TableRow;
+
+public class history extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
+        setContentView(R.layout.activity_history);
+
     }
 }

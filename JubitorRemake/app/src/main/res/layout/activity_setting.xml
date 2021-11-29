@@ -42,6 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
             android:text="Nama Penggguna"
             android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
@@ -51,7 +52,7 @@
             android:id="@+id/notelp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="11dp"
             android:text="No.Telefon"
             android:textColor="#000000"
             app:layout_constraintStart_toEndOf="@+id/guest_logo"
@@ -59,14 +60,56 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/tokosayaRecycler"
+    <TextView
+        android:id="@+id/favorit"
         android:layout_width="match_parent"
-        android:layout_height="610dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Favorit"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout2" />
 
+    <TextView
+        android:id="@+id/tokosaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Toko Saya"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:onClick="MethodtokoSaya"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/favorit" />
+
+    <TextView
+        android:id="@+id/terakhirdilihat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Terakhir Dilihat"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:onClick="Methodhistory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tokosaya" />
+
+    <TextView
+        android:id="@+id/pengaturanakun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Pengaturan Akun"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:onClick="MethodAkun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terakhirdilihat" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

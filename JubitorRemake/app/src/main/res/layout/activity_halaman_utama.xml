@@ -41,29 +41,37 @@
             android:id="@+id/usename"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="83dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
             android:text="Nama Penggguna"
             android:textColor="#000000"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/setting"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/notelp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="9dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="126dp"
+            android:layout_marginStart="11dp"
             android:text="No.Telefon"
             android:textColor="#000000"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/guest_logo"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/usename" />
+
+        <ImageButton
+            android:id="@+id/setting"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="MethodSetting"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_setting" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.appcompat.widget.SearchView
+    <SearchView
         android:id="@+id/searchView"
         android:layout_width="371dp"
         android:layout_height="32dp"
@@ -90,131 +98,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView" />
 
-
-    <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="515dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Rekomendasi">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="fill_parent"
-            android:layout_height="600dp">
-
-            <TableLayout
-                android:id="@+id/tableLayout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="1dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="1dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/homeRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="524dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rekomendasi" />
 
 
-                <TableRow
-                    android:id="@+id/pajanganmotor1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:onClick="MethodDetailProduk">
-
-                    <ImageView
-                        android:id="@+id/imageView12"
-                        android:layout_width="230dp"
-                        android:layout_height="190dp"
-                        app:srcCompat="@drawable/beat_2018" />
-
-                    <TextView
-                        android:id="@+id/textView3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="TextView" />
-                </TableRow>
-
-                <TableRow
-                    android:id="@+id/pajanganmotor2"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:onClick="MethodDetailProduk">
-
-                    <ImageView
-                        android:id="@+id/imageView13"
-                        android:layout_width="200dp"
-                        android:layout_height="185dp"
-                        app:srcCompat="@drawable/honda_beat_2021" />
-
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="TextView" />
-                </TableRow>
-
-                <TableRow
-                    android:id="@+id/pajanganmotor3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:onClick="MethodDetailProduk">
-                    >
-
-                    <ImageView
-                        android:id="@+id/imageView14"
-                        android:layout_width="200dp"
-                        android:layout_height="185dp"
-                        app:srcCompat="@drawable/revo__2014" />
-
-                    <TextView
-                        android:id="@+id/textView5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="TextView" />
-                </TableRow>
-
-                <TableRow
-                    android:id="@+id/pajanganmotor4"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:onClick="MethodDetailProduk">
-                    >
-
-                    <ImageView
-                        android:id="@+id/imageView15"
-                        android:layout_width="200dp"
-                        android:layout_height="185dp"
-                        app:srcCompat="@drawable/supra_x__2004" />
-
-                    <TextView
-                        android:id="@+id/textView6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="TextView" />
-                </TableRow>
-
-                <TableRow
-                    android:id="@+id/pajanganmotor5"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:onClick="MethodDetailProduk">
-                    >
-
-                    <ImageView
-                        android:id="@+id/imageView16"
-                        android:layout_width="200dp"
-                        android:layout_height="185dp"
-                        app:srcCompat="@drawable/mio_z_2020" />
-
-                    <TextView
-                        android:id="@+id/textView7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="TextView" />
-                </TableRow>
-
-
-            </TableLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

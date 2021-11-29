@@ -1,21 +1,22 @@
 package com.example.jubitorremake;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class tokosaya extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class listitemhome extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tokosaya);
+        setContentView(R.layout.listitem_produkhome);
+
     }
 
-    public void MethodMenu(View view) {
-        Intent intent = new  Intent(getBaseContext(), setting.class);
+    public void MethodHubungi(View view) {
+        Intent intent = new  Intent(getBaseContext(), detailproduct.class);
         startActivity(intent);
     }
 }

@@ -94,7 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Beat 2018,barang masih perawan (Baru),belum pernah dipake.16.000.000 nego,bisa dp dulu 2jt yang berminat moggo"
+                android:text="Beat 2018,barang masih Baru,belum pernah dipake.16.000.000 nego,bisa dp dulu 2jt yang berminat moggo"
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="bold"
@@ -105,6 +105,18 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="Hubungi Penjual"
+        android:textSize="15sp"
+        android:onClick="MethodHubungi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 
 
 
